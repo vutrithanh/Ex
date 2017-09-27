@@ -1,0 +1,268 @@
+
+
+.form{
+
+	padding: 4px;
+
+	margin: 6px 30px;
+
+	float: left;
+
+	width: 100%;
+
+}
+
+.form label{
+
+	width: 110px;
+
+	float: left;
+
+}
+
+.form label input{
+
+	float: left;
+
+}
+
+#contant-form{
+
+	margin:10px auto; 
+
+	width:500px;
+  background:white;
+
+	height: 700px; 
+
+	padding:20px;
+
+}
+
+h1{
+
+	border-bottom: 2px solid;
+
+    color: black;
+
+    font-family: sans-serif;
+
+    font-size: 2.8em;
+
+    line-height: 1.7em;
+
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    text-shadow: 0 3px #fff, 1px 4px ;
+
+    text-transform: uppercase;
+
+}
+
+body{
+
+  	font-family: Arial;
+
+  	font-size: 62.5%;
+
+  	line-height: 1;
+
+ 	padding-bottom: 60px;
+
+  	background-color: black;
+
+  	margin: 0;
+
+  	padding: 0;
+
+	border: 0;
+
+  	font-size: 100%;
+
+  	font: inherit;
+
+  	vertical-align: baseline;
+
+  	outline: none;
+
+}
+
+form .req{
+
+	color: red;
+
+}
+
+form .form{
+
+	display: block;
+
+  	padding: 3px 3px;
+
+  	margin-bottom: 3px;
+
+}
+
+
+form label {
+
+  	display: inline-block;
+
+ 	font-size: 1em;
+
+  	font-weight: bold;
+
+  	padding: 6px 0;
+
+  	color: black;
+
+
+}
+
+form .text{
+
+  	display: inline-block;
+
+  	padding: 8px 9px;
+
+  	padding-right: 30px;
+
+  	width: 240px;
+
+  	font-family: sans-serif;
+
+  	font-size: 1.35em;
+
+  	font-weight: normal;
+
+ 	background-color: #f0f0f0;
+
+ 	background-position: 110% center;
+
+  	background-repeat: no-repeat;
+
+  	border: 1px solid #ccc;
+
+  	text-shadow: 0 1px 0 rgba(255,255,255,0.75);
+
+  	box-sizing: content-box;
+
+  	border-radius: 3px;
+
+  	box-shadow: 0 1px 2px rgba(25, 25, 25, 0.25) inset;
+
+  	transition: all 0.3s linear;
+
+}
+
+form .txtarea {
+
+  	padding: 8px 11px;
+
+  	padding-right: 30px;
+
+  	width: 240px;
+
+  	height: 120px;
+
+  	font-size: 1.35em;
+
+  	font-weight: normal;
+
+  	background-color: #f0f0f0;
+
+  	background-position: 110% 4%;
+
+ 	background-repeat: no-repeat;
+
+  	border: 1px solid #ccc;
+
+  	text-shadow: 0 1px 0 rgba(255,255,255,0.75); 
+
+
+
+  	border-radius: 8px;
+
+  	box-shadow: 0 1px 4px -1px #a8a8a8 inset;
+
+  	transition: all 0.3s linear;
+
+}
+
+form .text:valid {
+
+  	background-color: ;
+
+  	background-position: 98% center;
+
+  	background-repeat: no-repeat;
+
+  	color: ;
+
+  	border: 1px solid #95bc7d;
+
+}
+
+form .text:focus, form .txtarea:focus {
+
+  	width: 300px;
+
+  	color: #f0f0f0;
+
+  	background-color: #fff;
+
+  	background-position: 110% center;
+
+  	background-repeat: no-repeat;
+
+  	border-color: #f0f0f0;
+
+  	box-shadow: 0 1px 4px -1px #a8a8a8 inset;
+
+}
+
+form .textarea:valid {
+
+  	background-color: white;
+    width: 280px;
+    height: 100px;
+    border-radius: 10px;
+
+  	
+
+  	
+
+  	
+}
+
+form .buttom{
+
+	width: 70px;
+
+	height: 50px;
+
+   color: red;
+
+  background-color: black;
+
+    border-width: 1px;
+
+    margin-left: 100px;
+
+    border-radius: 5px;
+
+}
+
+form .buttom:hover{
+
+	box-shadow: 0 0 15px rgba(70, 100, 200, 0.9);
+
+}
+
+form .buttom:active{
+
+	box-shadow: 0 0 15px rgba(70, 100, 200, 0.9);
+
+}
